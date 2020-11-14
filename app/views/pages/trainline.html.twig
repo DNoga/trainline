@@ -1,0 +1,36 @@
+{% extends 'base.html.twig' %}
+
+{% block main %}
+
+  <div class="content-container">
+    {# Set title #}
+    {% if title %}
+      <h1>{{ title }}</h1>
+    {% endif %}
+
+    <div class="input-container">
+      <label name="csv-upload-label" for="csv-upload">
+        <input type="file" id="csv-upload" name="csv-upload" accept=".csv">
+        Upload Schedule
+      </label>
+
+      <div class="error-message"></div>
+    </div>
+
+    <div class="results-container">
+      <table class="train-table">
+        <thead>
+          <tr></tr>
+        </thead>
+        <tbody>
+          <tr></tr>
+          <tr></tr>
+          <tr></tr>
+          <tr></tr>
+          <tr></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  
+{% endblock %}

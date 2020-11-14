@@ -1,0 +1,106 @@
+.content-container {
+  align-items: center;
+  display: flex;
+  flex-flow: column;
+}
+
+header {
+  background-color:  #f0f4f9;
+  display: flex;
+  flex-flow: column;
+  height: 6.25rem;
+  justify-content: flex-end;
+}
+header .header-link {
+  color: #013a81;
+  font-size: 1.125rem;
+  margin: 0 .625rem 0 .625rem;
+  text-decoration: none;
+}
+
+header .header-link:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  color: #013a81;
+  font-size: 2.5rem;
+}
+
+.content-container {
+  margin-bottom: 2.5rem;
+}
+
+.input-container {
+  text-align: center;
+}
+
+.input-container .error-message {
+  color: #cc0000;
+  margin-bottom: 1.25rem;
+}
+
+.input-container label[name='csv-upload-label'] {
+  background-color: #013a81;
+  border: 1px solid #ccc;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1.125rem;
+  margin-bottom: 1.25rem;
+  padding: 6px 12px;
+}
+
+.input-container input[name='csv-upload'] {
+  // Make available to screen readers
+  height: 1px;
+  left: -10000px;
+  overflow: hidden;
+  position: absolute;
+  top: auto;
+  width: 1px;
+}
+
+.train-table {
+  border: 1px solid #000000;
+  border-collapse: collapse;
+  text-align: center;
+  width: 48rem;
+}
+
+.train-table thead tr {
+  background-color: #013a81;
+  color: white;
+}
+
+.train-table tbody tr {
+  background-color: #f0f4f9;
+}
+
+.train-table td {
+  border: 1px solid #000000;
+}
+
+.nav {
+  font-size: 1.125rem;
+  margin-top: .75rem;
+  text-align: center;
+}
+
+.nav a {
+ color: #013a81;
+ text-decoration: none; 
+}
+
+.nav .active {
+  text-decoration: underline;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background-color:  #f0f4f9;
+  height: 6.25rem;
+}
